@@ -1,7 +1,7 @@
 # NatInject
 Bare-bones Windows DLL injector
 
-![NatInject GUI](https://github.com/natcat256/NatInject/assets/95653800/56592506-b730-4988-9bde-e361cb9d3e96)
+![NatInject GUI](https://github.com/natcat256/NatInject/assets/95653800/60f4d96a-53a2-4740-8da3-66b68419a754)
 
 ## Features
 NatInject is very basic and intended to be a learning resource. As such, it can be easily defeated by most anti-tampering software. It does, however, offer a few pros:
