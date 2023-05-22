@@ -26,7 +26,10 @@ namespace NatInject.Gui
                     item.SubItems.Add(pid);
                     item.SubItems.Add(path);
 
-                    ProcessIconList.Images.Add(path, Icon.ExtractAssociatedIcon(path));
+                    if (!ProcessIconList.Images.ContainsKey(path))
+                    {
+                        ProcessIconList.Images.Add(path, Icon.ExtractAssociatedIcon(path));
+                    }
 
                     item.ImageKey = path;
                     item.Tag = process;
